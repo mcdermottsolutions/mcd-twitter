@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:700);
+
+body {
+	padding-top: 75px;
+	background: #B2EBF2; 
+}
+nav.navbar-inverse { 
+	background: #F06292; 
+	border: 1px solid #BA7C9A;
+}
+nav.navbar-inverse a.navbar-brand { 
+	color: #222; 
+	font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+nav.navbar-inverse a.navbar-brand:hover { 
+	color: #666; 
+}
+div.tweet p { 
+	margin: 0; 
+}
+div.tweet p a { 
+	color: #29B6F6; 
+}
+div.tweet p a:hover { 
+	color: #4FC3F7; 
+}
+div.tweet p.date { 
+	color: #ccc; 
+	text-align: right; 
+	font-size: 80%; 
+	margin: .25em 0 0; 
+}
