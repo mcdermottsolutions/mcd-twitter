@@ -1,6 +1,8 @@
 This is a demo for how to pull tweets from twitter's api in php.
 This is the bare minimum code you need to get the job done. 
 
+demo link: http://mcdermottsolutions.com/mcd-twitter/
+
 This demo is the opposite of robust. I imagine this fails under many edge cases.
 This is stripped down, barebones version of this twitter app only authentication oauth demo:
 https://github.com/jonhurlock/Twitter-Application-Only-Authentication-OAuth-PHP
