@@ -15,7 +15,7 @@ https://github.com/abraham/twitteroauth
 
 */ 
 
-// put your api keys & twitter search query here
+// step 1: put your api keys & twitter search query here
 // for api keys, go to https://apps.twitter.com/app/new
 $apiKey = 'yourApiKeyHere';
 $apiSecret = 'yourApiSecretKeyHere';
@@ -23,7 +23,7 @@ $apiSecret = 'yourApiSecretKeyHere';
 $twitterQuery = 'from:poolsharkmark';
 
 
-// step 1: get twitter oauth token
+// step 2: get twitter oauth token
 $oauthToken = '';
 $curlHeader = array( "Authorization: Basic " . base64_encode(urlencode($apiKey) . ':' . urlencode($apiSecret)) ); 
 $oauthCurl = curl_init();
@@ -37,7 +37,7 @@ foreach( explode("\n", $oauthObject) as $line) {
 	$oauthToken = json_decode($line)->{'access_token'};
 }
 
-// step 2: get tweets (in an array)
+// step 3: get tweets (in an array)
 $tweetsArray = array();
 $twitterHeader = array( "Authorization: Bearer " . $oauthToken );
 $tweetsCurl = curl_init();
