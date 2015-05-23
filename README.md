@@ -14,7 +14,7 @@ steps to get my demo working:
 
 2) add your api key & secret api key on line 20 & 21 of twitter.php
 
-3) if you want to chang the twitter feed pulled, see "Query Operators" on 
+3) if you want to change the twitter feed pulled, see "Query Operators" on 
    https://dev.twitter.com/rest/public/search and change the query on line 23 of twitter.php
 
 4) upload to your server.  (i haven't been able to get this to work from localhost yet)
